@@ -1,0 +1,185 @@
+orden;isla;año;nacim
+0;Canarias;1999;18790
+0;Canarias;2000;18981
+0;Canarias;2001;19262
+0;Canarias;2002;19461
+0;Canarias;2003;19913
+0;Canarias;2004;20346
+0;Canarias;2005;20127
+0;Canarias;2006;20668
+0;Canarias;2007;20249
+0;Canarias;2008;20672
+0;Canarias;2009;18952
+0;Canarias;2010;18305
+0;Canarias;2011;17423
+0;Canarias;2012;17201
+0;Canarias;2013;15859
+0;Canarias;2014;16398
+0;Canarias;2015;16146
+0;Canarias;2016;16159
+0;Canarias;2017;15779
+0;Canarias;2018;14775
+0;Canarias;2019;14137
+0;Canarias;2020;13178
+0;Canarias;2021;12732
+1;El Hierro;1999;73
+1;El Hierro;2000;88
+1;El Hierro;2001;81
+1;El Hierro;2002;78
+1;El Hierro;2003;63
+1;El Hierro;2004;84
+1;El Hierro;2005;73
+1;El Hierro;2006;68
+1;El Hierro;2007;80
+1;El Hierro;2008;96
+1;El Hierro;2009;76
+1;El Hierro;2010;82
+1;El Hierro;2011;67
+1;El Hierro;2012;79
+1;El Hierro;2013;62
+1;El Hierro;2014;69
+1;El Hierro;2015;72
+1;El Hierro;2016;69
+1;El Hierro;2017;63
+1;El Hierro;2018;53
+1;El Hierro;2019;58
+1;El Hierro;2020;48
+1;El Hierro;2021;71
+2;La Palma;1999;662
+2;La Palma;2000;664
+2;La Palma;2001;711
+2;La Palma;2002;684
+2;La Palma;2003;669
+2;La Palma;2004;681
+2;La Palma;2005;651
+2;La Palma;2006;688
+2;La Palma;2007;678
+2;La Palma;2008;669
+2;La Palma;2009;672
+2;La Palma;2010;582
+2;La Palma;2011;621
+2;La Palma;2012;613
+2;La Palma;2013;480
+2;La Palma;2014;500
+2;La Palma;2015;529
+2;La Palma;2016;505
+2;La Palma;2017;549
+2;La Palma;2018;491
+2;La Palma;2019;455
+2;La Palma;2020;440
+2;La Palma;2021;410
+3;La Gomera;1999;149
+3;La Gomera;2000;200
+3;La Gomera;2001;153
+3;La Gomera;2002;170
+3;La Gomera;2003;151
+3;La Gomera;2004;170
+3;La Gomera;2005;170
+3;La Gomera;2006;166
+3;La Gomera;2007;141
+3;La Gomera;2008;163
+3;La Gomera;2009;152
+3;La Gomera;2010;122
+3;La Gomera;2011;119
+3;La Gomera;2012;120
+3;La Gomera;2013;106
+3;La Gomera;2014;120
+3;La Gomera;2015;113
+3;La Gomera;2016;128
+3;La Gomera;2017;122
+3;La Gomera;2018;111
+3;La Gomera;2019;124
+3;La Gomera;2020;97
+3;La Gomera;2021;115
+4;Tenerife;1999;7688
+4;Tenerife;2000;7423
+4;Tenerife;2001;7475
+4;Tenerife;2002;7702
+4;Tenerife;2003;7950
+4;Tenerife;2004;8135
+4;Tenerife;2005;8436
+4;Tenerife;2006;8656
+4;Tenerife;2007;8713
+4;Tenerife;2008;8973
+4;Tenerife;2009;8154
+4;Tenerife;2010;7779
+4;Tenerife;2011;7487
+4;Tenerife;2012;7452
+4;Tenerife;2013;6671
+4;Tenerife;2014;7026
+4;Tenerife;2015;7009
+4;Tenerife;2016;6869
+4;Tenerife;2017;6801
+4;Tenerife;2018;6378
+4;Tenerife;2019;5914
+4;Tenerife;2020;5534
+4;Tenerife;2021;5263
+5;Gran Canaria;1999;8229
+5;Gran Canaria;2000;8444
+5;Gran Canaria;2001;8488
+5;Gran Canaria;2002;8358
+5;Gran Canaria;2003;8548
+5;Gran Canaria;2004;8650
+5;Gran Canaria;2005;8196
+5;Gran Canaria;2006;8327
+5;Gran Canaria;2007;7899
+5;Gran Canaria;2008;7729
+5;Gran Canaria;2009;7243
+5;Gran Canaria;2010;7136
+5;Gran Canaria;2011;6746
+5;Gran Canaria;2012;6553
+5;Gran Canaria;2013;6248
+5;Gran Canaria;2014;6410
+5;Gran Canaria;2015;6068
+5;Gran Canaria;2016;6213
+5;Gran Canaria;2017;5856
+5;Gran Canaria;2018;5427
+5;Gran Canaria;2019;5325
+5;Gran Canaria;2020;4854
+5;Gran Canaria;2021;4892
+6;Fuerteventura;1999;808
+6;Fuerteventura;2000;846
+6;Fuerteventura;2001;938
+6;Fuerteventura;2002;953
+6;Fuerteventura;2003;1073
+6;Fuerteventura;2004;1076
+6;Fuerteventura;2005;1022
+6;Fuerteventura;2006;1138
+6;Fuerteventura;2007;1049
+6;Fuerteventura;2008;1362
+6;Fuerteventura;2009;1178
+6;Fuerteventura;2010;1167
+6;Fuerteventura;2011;1004
+6;Fuerteventura;2012;1039
+6;Fuerteventura;2013;989
+6;Fuerteventura;2014;956
+6;Fuerteventura;2015;967
+6;Fuerteventura;2016;1055
+6;Fuerteventura;2017;1072
+6;Fuerteventura;2018;1018
+6;Fuerteventura;2019;976
+6;Fuerteventura;2020;1008
+6;Fuerteventura;2021;883
+7;Lanzarote;1999;1181
+7;Lanzarote;2000;1316
+7;Lanzarote;2001;1416
+7;Lanzarote;2002;1516
+7;Lanzarote;2003;1459
+7;Lanzarote;2004;1550
+7;Lanzarote;2005;1579
+7;Lanzarote;2006;1625
+7;Lanzarote;2007;1689
+7;Lanzarote;2008;1680
+7;Lanzarote;2009;1477
+7;Lanzarote;2010;1437
+7;Lanzarote;2011;1379
+7;Lanzarote;2012;1345
+7;Lanzarote;2013;1303
+7;Lanzarote;2014;1317
+7;Lanzarote;2015;1388
+7;Lanzarote;2016;1320
+7;Lanzarote;2017;1316
+7;Lanzarote;2018;1297
+7;Lanzarote;2019;1285
+7;Lanzarote;2020;1197
+7;Lanzarote;2021;1098
