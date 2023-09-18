@@ -1,0 +1,44 @@
+precios <-
+  read.table("https://raw.githubusercontent.com/ULL-STAT/R_practicas_fisioterapia/master/data/datos_canarias_precios_agricolas.csv",
+             header=TRUE, stringsAsFactors=TRUE, sep=";", na.strings="NA", dec=".", strip.white=TRUE)
+
+precios<- subset(precios, subset=Territorio %in% c("Tenerife","Gran Canaria") & Producto=="Aguacates" & Indicador=="Precio medio en merca")
+precios$Año_mes<- with(precios,as.POSIXct(as.Date(paste0(Año_mes,"-01"))))
+
+library(ggplot2)
+if(!require("png")) install.packages("png")
+if(!require("scales")) install.packages("scales")
+if(!require("ggforce")) install.packages("ggforce")
+if(!require("ggrepel")) install.packages("ggrepel")
+if(!require("RCurl")) install.packages("RCurl")
+
+# Read image file as PNG
+my_image1 <-  png::readPNG(RCurl::getURLContent("https://raw.githubusercontent.com/ULL-STAT/R_practicas_fisioterapia/master/img/aguacate_trans.png"))
+
+plot1<-ggplot(precios,aes(x = Año_mes,
+             y = Precio_medio,group=Territorio,
+             color = Territorio))  +
+  scale_x_datetime(labels = date_format("%B-%Y"))+
+  theme_bw()+
+  labs(title = "Estadística de precios agrícolas",
+       caption = "FUENTE: ISTAC (Gobierno de Canarias)",
+       x= NULL, y = "Precio medio de venta del aguacate")+
+  ggforce::facet_zoom(xlim = c(as.POSIXct(as.Date("2023-01-01","%Y-%m-%d")),
+                               as.POSIXct(as.Date("2023-08-01","%Y-%m-%d")))
+  ) +
+  geom_smooth(span=0.2,se=FALSE) +
+  geom_vline(xintercept = as.POSIXct(as.Date("2023-05-01")),color = "red", lwd = 0.5,linetype="dashed")+
+  theme(legend.position = "bottom") +
+  geom_point(color="black")+
+  scale_color_discrete(name="")+
+  geom_label_repel(data = subset(precios, Precio_medio < 11 & Precio_medio >9),
+                   aes(label = as.character(Año_mes)),
+                   size = 5,
+                   box.padding = unit(0.35, "lines"),
+                   point.padding = unit(0.3, "lines"),
+                   show.legend = FALSE)
+
+plot1
+plot1 + annotation_custom(grid::rasterGrob(my_image1, width = 1, height = 1),
+                         xmin = as.POSIXct(as.Date("2021-01-01")), xmax = as.POSIXct(as.Date("2021-07-01")),
+                         ymin = 5.5, ymax = 15)
