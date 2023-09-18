@@ -1,4 +1,4 @@
-Territorio;Año;Mes;Año_mes;Precio medio;Nombre del Producto;Indicador
+Territorio;Año;Mes;Año_mes;Precio_medio;Producto;Indicador
 Canarias;2020;septiembre;2020-09;6.94;Aguacates;Precio medio en destino
 Canarias;2020;septiembre;2020-09;5.73;Aguacates;Precio medio en merca
 Canarias;2020;septiembre;2020-09;3.67;Aguacates;Precio medio en origen
